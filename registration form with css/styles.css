@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.headboi {
+  text-align: center; /* Centers text within the h1 element */
+  color: white; /* Sets text color to white */
+  margin-bottom: 30px; /* Adds space between the h1 and the form */
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+/* Move the h1 element outside the form tag */
+body > h1.headboi {
+  position: absolute; /* Positions the h1 element absolute to the body */
+  top: 50%; /* Centers the h1 vertically */
+  left: 50%; /* Centers the h1 horizontally */
+  transform: translate(-50%, -50%); /* Adjusts position for accurate centering */
+  z-index: 1; /* Ensures the h1 is on top of other elements */
+}
+
+input{
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  color: #fff;
+}
