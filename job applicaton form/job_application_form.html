@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+        
+            <center><h1 class = "wrapper"><u>Job Application Form</u></h1>
+            <table cellspacing="5" class="wrapper">
+                <tr>
+                    <td><label for="first_name" style="font-weight: bold;">First name:</label></td>
+                    <td><label for="last_name" style="font-weight: bold;">Last name:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="first_name" name="first_name" required></td>
+                    <td><input type="text" id="last_name" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="email" style="font-weight: bold;">Email:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="email" id="email" name="email" required style="width:100%;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="position" style="font-weight: bold;">Position you are applying for:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" id="position" name="position" required style="width:100%;"></td>
+                </tr>
+                <tr>
+                    <td><label for="salary" style="font-weight: bold;">Salary requirement:</label></td>
+                    <td><label for="start_date" style="font-weight: bold;">When can you start?:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="salary" name="salary" required></td>
+                    <td><input type="date" id="start_date" name="start_date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone" style="font-weight: bold;">Phone:</label></td>
+                    <td><label for="fax" style="font-weight: bold;">Fax:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="tel" id="phone" name="phone" required></td>
+                    <td><input type="tel" id="fax" name="fax"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="relocate" style="font-weight: bold;">Are you willing to relocate?</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" id="relocate_yes" name="relocate" value="yes" required>
+                        <label for="relocate_yes">Yes</label>
+                        <input type="radio" id="relocate_no" name="relocate" value="no" required>
+                        <label for="relocate_no">No</label>
+                        <input type="radio" id="relocate_not_sure" name="relocate" value="not sure" required>
+                        <label for="relocate_not_sure">Not Sure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="last_company" style="font-weight: bold;">Last company you worked for:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" id="last_company" name="last_company" required style="width:100%;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="languages" style="font-weight: bold;">Languages known:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" id="java" name="languages" value="java" required>
+                        <label for="java">JAVA</label>
+                        <input type="checkbox" id="web_programming" name="languages" value="web_programming" required>
+                        <label for="web_programming">Web Programming</label>
+                        <input type="checkbox" id="python" name="languages" value="python" required>
+                        <label for="python">Python</label>
+                        <input type="checkbox" id="ph_p" name="languages" value="ph_p" required>
+                        <label for="ph_p">PhP</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="resume" style="font-weight: bold;">UPLOAD RESUME:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="file" id="resume" name="resume" required></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="SEND APPLICATION">
+            <input type="reset" value="RESET">
+        </fieldset>
+    </center>
+</body>
+</html>
