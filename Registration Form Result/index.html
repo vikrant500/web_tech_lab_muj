@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form Result</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+        <h1>Registration Form</h1>
+        <br>
+        <div class="input-box">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+        <br>
+        <div class="input-box">
+            <input type="password" id="password" name="password" required placeholder="Password">
+        </div>
+        <br>
+        <div class="input-box">
+            <input type="email" id="email" name="email" required placeholder="Email ID">
+        </div>
+        <br>
+        <div class="input-box">
+            <input type="tel" id="phone" name="phone" required placeholder="Phone Number">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="gender_">
+        <label for="gender">GENDER</label>
+
+        <input type="radio" id="male" name="gender" value="male" class="choice_">
+        <label for="male" class="gend">MALE</label>
+
+        <input type="radio" id="female" name="gender" value="female" class="choice_">         
+        <label for="female" class="gend">FEMALE</label>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="dob_">
+            <label for="dob">DATE OF BIRTH</label>
+            <br>
+            <br>
+            <select id="day" class="drop_down">
+                <option value="day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+
+            
+            <select id="month" class="drop_down">
+                <option value="month">Month</option>
+                <option value="january">january</option>
+                <option value="february">february</option>
+            </select>
+
+            
+            <select id="year" class="drop_down">
+                <option value="year">Year</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="languages_">
+            <label for="languages">LANGUAGES KNOWN :</label>
+            
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">ENGLISH</label>
+
+            <input type="checkbox" id="telugu" name="languages" value="telugu">
+            <label for="telugu">TELUGU</label>
+
+            <input type="checkbox" id="hindi" name="languages" value="hindi">
+            <label for="hindi">HINDI</label>
+
+            <input type="checkbox" id="Tamil" name="languages" value="Tamil">
+            <label for="Tamil">TAMIL</label>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="address_">
+            <label for="address">ADDRESS</label>
+            <textarea id="address" name="address" rows="5" cols="30" required class="add_"></textarea>
+        </div>
+        <br>
+        <hr>
+        <br>
+        
+        <button type="submit" class="btn">Submit</button>
+        <button class="btn" onclick="reset()">Reset</button>   
+            
+        </form>   
+    </div>
+    <div class="result-container"></div>
+    
+    </div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
