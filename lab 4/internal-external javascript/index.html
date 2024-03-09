@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Internal and External JavaScript</title>
+  <script>
+    // Internal JavaScript (displays message on page load)
+    function greet() {
+      document.getElementById("message").innerHTML = "Welcome from Internal JavaScript!";
+    }
+  </script>
+</head>
+<body onload="greet(); greet2()">
+
+    <h1>Internal vs. External JavaScript</h1>
+    <p id="message"></p>
+    <p id="message2"></p>
+    <script src="external.js"></script>
+</body>
+</html>
