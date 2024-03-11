@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Style Sheet Demo</title>
+  </head>
+  <body>
+    <h1 style="color: rgb(26, 255, 0); font-size: 2em; text-align: center">
+      Inline and external styles example
+    </h1>
+
+    <style>
+      p {
+        
+        margin: 1em;
+        padding: 0.5em;
+        text-align: center;
+        
+      }
+
+      .highlighted {
+        font-family: 'Times New Roman', sans-serif;
+        background-color: #e0e0e0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <p style ="color: purple; font-family: 'Times New Roman', Times, serif;">Made with inline styles.</p>
+    <p class="highlighted">
+        Made with internal styles.
+    </p>
+
+    <p class="external">
+        Made with external styles.
+    </p>
+  </body>
+</html>
