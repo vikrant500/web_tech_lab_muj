@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center; text-decoration: underline;">Registration Page</h1>
+
+<table style="border: 5px double black; margin: auto;">
+<form>
+<tr>
+    <td>
+            <br><label for="name" style="margin-left: 10px;">NAME</label>
+    </td>
+    <td>
+            <br><input type="text" id="name" name="name" required><br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="password" style="margin-left: 10px;">PASSWORD</label>
+    </td>
+    <td>
+           <br> <input type="password" id="password" name="password" required><br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="email" style="margin-left: 10px;">EMAIL ID</label>
+    </td>
+    <td>
+            <br><input type="email" id="email" name="email" required><br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="phone" style="margin-left: 10px;">PHONE NUMBER</label>
+    </td>
+    <td>
+            <br><input type="tel" id="phone" name="phone" required><br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="gender" style="margin-left: 10px;">GENDER</label>
+    </td>
+    <td>
+            <br><input type="radio" id="male" name="gender" value="male">
+            <label for="male">MALE</label>
+            <input type="radio" id="female" name="gender" value="female">         
+            <label for="female">FEMALE</label><br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="dob" style="margin-left: 10px;">DATE OF BIRTH</label>
+    </td>
+    <td>
+            <br>
+
+            <label for="day" placeholder="day"></label>
+                <select id="day">
+                        <option value="day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                </select>
+
+                <label for="month" placeholder="month"></label>
+                <select id="month">
+                        <option value="month">Month</option>
+                        <option value="january">january</option>
+                        <option value="february">february</option>
+                </select>
+
+                <label for="year" placeholder="year"></label>
+                <select id="year">
+                        <option value="year">Year</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                </select>
+            
+            <br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="languages" style="margin-left: 10px;">LANGUAGES KNOWN</label>
+    </td>
+    <td> 
+            <br><input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">ENGLISH</label>
+            <input type="checkbox" id="telugu" name="languages" value="telugu">
+            <label for="telugu">TELUGU</label>
+            <input type="checkbox" id="hindi" name="languages" value="hindi">
+            <label for="hindi">HINDI</label>
+            <input type="checkbox" id="Tamil" name="languages" value="Tamil">
+            <label for="Tamil" style="margin-right: 20px;">TAMIL</label><br>
+    </td>
+</tr>
+<tr>
+    <td>
+            <br><label for="address" style="margin-left: 10px;">ADDRESS</label>
+    </td>
+    <td>
+            <br><textarea id="address" name="address" rows="5" cols="30" required></textarea><br>
+    </td>
+</tr>
+<tr>
+    <td>
+             
+    </td>
+    <td>
+             <input type="submit" value="SUBMIT" style="margin-right: 30px;">
+                
+             <input type="reset" value="RESET">
+    </td>
+    
+</tr>
+</form>
+</table>
+</body>
+</html>
