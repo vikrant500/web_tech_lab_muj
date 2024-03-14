@@ -23,6 +23,6 @@ This repository provides a reference point for completing web development lab as
 
 Feel free to contribute solutions for additional labs or improvements to existing code. Please create a pull request with your changes.
 
-**Contact**
+## Contact
 
 If you have any questions or suggestions, feel free to create an issue in this repository.
