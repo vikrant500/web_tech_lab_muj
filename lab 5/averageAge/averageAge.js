@@ -8,9 +8,9 @@ function getAverageAge(people) {
 }
 
 const people = [
-    { name: "Alice", age: 30 },
-    { name: "Bob", age: 25 },
-    { name: "Charlie", age: 35 }
+    { name: "Vik", age: 30 },
+    { name: "Aryan", age: 25 },
+    { name: "Ayan", age: 35 }
 ];
 
 console.log(getAverageAge(people)); // Output: 30 (average of 30, 25, and 35)
