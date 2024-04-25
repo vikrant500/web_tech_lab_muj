@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1> Simple Calculator</h1>
+
+        <br>
+
+        <div class="input-box">
+            <input type="number" placeholder="number1" id="num_1">
+        </div>
+
+        <br>
+
+        <div class="input-box">
+            <input type="number" placeholder="number2" id="num_2">
+        </div>
+
+        <br>
+        <div>
+            
+            <select id="country-select" class="btn">
+                <option value="">Select operator</option>
+                <option value="Add">Add</option>
+                <option value="Sub">Sub</option>
+                <option value="Mul">Mul</option>
+                <option value="Div">Div</option>
+            </select>
+            
+        </div>
+        <br>
+        <div>
+        <Label for="res">Result: </Label>
+        <input type="text" name="res" id="res" class="resultss" value="" readonly>
+        </div>
+        <br>
+        <button class="reset" onclick="reset_()">Reset</button>
+    </div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
